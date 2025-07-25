@@ -8,7 +8,7 @@ on:
 env:
   # Assign the version provided by 'workflow_dispatch' if available; otherwise, use the default.
   PLUGIN_NAME: wtyczka_qgis_app
-  TEST_FUNCTION: python -m unittest
+  TEST_FUNCTION: test_create_save_strefy_planistyczne_lyr
   DOCKER_IMAGE: qgis/qgis
 
 jobs:
